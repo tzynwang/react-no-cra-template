@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: system-ui;
+  background-color: #bfba9f;
+  color: #0d0d0d;
+}
+
+img {
+  width: auto;
+  display: block;
+}

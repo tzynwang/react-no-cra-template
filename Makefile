@@ -39,7 +39,7 @@ preview:
 deploy: build-js
 	cd $(BUILD_DESTINATION) && \
 	git init && \
-	git remote -v | grep -w origin || git remote add origin git@github.com:tzynwang/next-blog-v2.git && \
+	git remote -v | grep -w origin || git remote add origin git@github.com:tzynwang/react-no-cra-template.git && \
 	git branch -m gh-pages && \
 	git add -A && \
 	git commit -m "[feat] deploy as gh-pages `date +'%Y-%m-%d %H:%M:%S'`" && \

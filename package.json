@@ -1,16 +1,18 @@
 {
-  "name": "sylvie",
+  "name": "react-no-cra-template",
   "version": "0.1.0",
-  "private": true,
+  "author": "Tzu Yin (Charlie)",
+  "description": "A react app template without create-react-app but with webpack config.",
   "scripts": {
     "start": "make start",
     "build": "make build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tzynwang/react-no-cra-template.git"
+  },
   "dependencies": {
     "@svgr/webpack": "^6.5.1",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "css-loader": "^6.7.3",
     "dotenv": "^16.0.3",
     "esbuild-loader": "^3.0.0",
@@ -34,7 +36,6 @@
     "@types/node": "^16.18.12",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
-    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
   },
   "resolutions": {
@@ -42,8 +43,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {

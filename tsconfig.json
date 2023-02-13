@@ -19,7 +19,8 @@
     "paths": {
       "@Asset/*": ["asset/*"],
       "@Component/*": ["component/*"],
-      "@Style/*": ["style/*"]
+      "@Style/*": ["style/*"],
+      "@Tool/*": ["tool/*"]
     }
   },
   "include": ["src", "./config", "./script", "./tool"]

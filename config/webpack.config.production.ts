@@ -58,10 +58,11 @@ const webpackProductionConfig: WebpackConfiguration = {
       {
         test: /\.css$/,
         exclude: /\.module\.css$/,
+        sideEffects: true,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: { publicPath: '/' },
+            options: { publicPath: '../../' },
           },
           {
             loader: 'css-loader',
@@ -104,14 +105,13 @@ const webpackProductionConfig: WebpackConfiguration = {
             },
           },
         ],
-        sideEffects: true,
       },
       {
         test: /\.module\.css$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
-            options: { publicPath: '/' },
+            options: { publicPath: '../../' },
           },
           {
             loader: 'css-loader',

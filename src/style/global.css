@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('@Asset/font/Montserrat-Regular.ttf') format("woff2"); 
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('@Asset/font/Montserrat-Bold.ttf') format("woff2"); 
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +24,7 @@ html,
 body,
 #root {
   height: 100%;
-  font-family: system-ui;
+  font-family: 'Montserrat', sans-serif;
   background-color: #bfba9f;
   color: #0d0d0d;
 }
